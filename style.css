@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(/desfocar-o-papel-de-parede-de-varias-cores-de-fundo_545122-455.avif);
+    background-size: cover;
+    background-repeat: repeat-y;
+    height: 100%;
+}
+
+#main-content {
+    width:fit-content;
+    height: fit-content;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid white;
+    border-radius: 10%;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 80px;
+    background-image: url(/10742825-fundo-gradiente-com-cores-azuis-rosa-papel-de-parede-ou-banner-gratis-vetor.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+    box-shadow: 5px 5px 5px #888888;
+}
+
+header h1 {
+    text-align: center;
+    font-family: monospace;
+    font-size: 50px;
+    text-shadow: 3px 3px rgb(255, 100, 255), -3px -3px lime;
+}
+
+#color-palette {
+    height: 60px;
+    width: fit-content;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.color {
+    border: 1px solid white;
+    box-shadow: 3px 3px 5px #888888;
+    height: 50px;
+    width: 50px;
+    float: left;
+    border-radius: 100%;
+    margin-left: 10px;
+    transition: all 0.7s;
+}
+
+#button-div {
+    clear: both;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#button-div button {
+    margin-top: 15px;
+    border-radius: 6%;
+    padding: 10px;
+    font-family: monospace;
+    background-color: white;
+    box-shadow: 5px 5px 5px #888888;
+    font-size: smaller;
+    text-shadow: 1px 1px rgb(255, 100, 255), -1px -1px lime;
+    transition: all 0.5s;
+    margin-left: 10px;
+}
+
+#pixel-board {
+    display: flex;
+    flex-wrap: wrap;
+    height: 202px;
+    width: 202px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
+.pixel {
+    border: 1px solid black;
+    height: 40px;
+    width: 40px;
+    box-sizing: border-box;
+    border-radius: 10%;
+    cursor: pointer;
+    transition: all 0.7s;
+}
+
+#input-section {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#input-section input {
+    margin: 8px;
+    border-radius: 3%;
+    padding: 10px;
+    font-family: monospace;
+    background-color: white;
+    box-shadow: 5px 5px 5px #888888;
+    font-size: smaller;
+}
+
+.color:hover {
+    border: 3px solid plum;
+    cursor: pointer;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+button:hover {
+    border: 3px solid plum;
+    cursor: pointer;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.selected {
+    border: 3px solid purple;
+}
+
+.pixel:hover {
+    border: 3px solid purple;
+}
+
