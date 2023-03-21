@@ -1,3 +1,5 @@
+import './style.css'
+
 const colorList = [
     'red',
     'yellow',
@@ -23,6 +25,7 @@ const colorList = [
     'orchid',
     'magenta',
     'darkorange',
+    'darkgrey',
   ];
   
   const pixelBoard = document.getElementById('pixel-board');

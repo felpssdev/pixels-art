@@ -91,7 +91,6 @@ header h1 {
     box-sizing: border-box;
     border-radius: 10%;
     cursor: pointer;
-    transition: all 0.7s;
 }
 
 #input-section {
